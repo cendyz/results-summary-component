@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Frontend Mentor | Results summary component</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<div class="card">
+			<div class="card__head">
+				<p class="card__head-up">Your Result</p>
+				<div class="card__head__result">
+					<p class="card__head__result-first">76</p>
+					<p class="card__head__result-second">of 100</p>
+				</div>
+				<h2 class="card__head-title">Great</h2>
+				<p class="card__head-text">You scored higher than 65% of the people who have taken these tests.</p>
+			</div>
+			<div class="card__bottom">
+				<h2 class="card__bottom-title">Summary</h2>
+				<div class="card__bottom__results">
+					<div class="card__bottom__result card__bottom__result--red">
+						<img src="./img/icon-reaction.svg" alt="" class="card__bottom__result-img" />
+						<p class="card__bottom__result-subject card__bottom__result-subject--red">Reaction</p>
+						<p class="card__bottom__result-score"><span>80</span> / 100</p>
+					</div>
+					<div class="card__bottom__result card__bottom__result--yellow">
+						<img src="./img/icon-memory.svg" alt="" class="card__bottom__result-img" />
+						<p class="card__bottom__result-subject card__bottom__result-subject--yellow">Memory</p>
+						<p class="card__bottom__result-score"><span>92</span> / 100</p>
+					</div>
+					<div class="card__bottom__result card__bottom__result--green">
+						<img src="./img/icon-verbal.svg" alt="" class="card__bottom__result-img" />
+						<p class="card__bottom__result-subject card__bottom__result-subject--green">Verbal</p>
+						<p class="card__bottom__result-score"><span>61</span> / 100</p>
+					</div>
+					<div class="card__bottom__result card__bottom__result--blue">
+						<img src="./img/icon-visual.svg" alt="" class="card__bottom__result-img" />
+						<p class="card__bottom__result-subject card__bottom__result-subject--blue">Visual</p>
+						<p class="card__bottom__result-score"><span>72</span> / 100</p>
+					</div>
+				</div>
+				<button class="card__bottom-btn">Continue</button>
+			</div>
+		</div>
+	</body>
+</html>
